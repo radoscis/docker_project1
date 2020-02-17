@@ -11,7 +11,7 @@ resources:
       type: github
       name: radoscis/pipelines-templates
       ref: refs/heads/master
-      endpoint: radoscis
+      endpoint: NewRadoscisGithubConnection
 
 pool:
     vmImage: 'ubuntu-latest'
